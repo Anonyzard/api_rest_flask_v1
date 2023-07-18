@@ -22,7 +22,7 @@ def create_app(db_url=None):
     app.config[
         "OPENAPI_SWAGGER_UI_URL"
     ] = "https://cdn.jsdelivr.net/npm/swagger-ui-dist/"
-    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:password@172.16.0.17:3306/bdtestsqlalchemy?charset=utf8mb4&collation=utf8mb4_general_ci'
+    app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql+mysqlconnector://root:donotuse@127.0.0.1:40000/bdtestsqlalchemy?charset=utf8mb4&collation=utf8mb4_general_ci'
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     #app.config["SQLALCHEMY_DATABASE_URI"] = db_url or "sqlite:///data.db"
     #app.config["SQLALCHEMY_TRACK_MODIFICATIONS"] = False

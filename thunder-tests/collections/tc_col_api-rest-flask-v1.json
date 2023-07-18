@@ -1,0 +1,75 @@
+{
+    "_id": "55aac9ad-fb78-4a7c-a8c5-d141add6b3ea",
+    "colName": "api rest flask v1",
+    "created": "2023-07-18T21:12:11.330Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "8c538888-7f58-43df-b3f7-6763e5121d2e",
+            "colId": "55aac9ad-fb78-4a7c-a8c5-d141add6b3ea",
+            "containerId": "",
+            "name": "register",
+            "url": "http://127.0.0.1:5000/register",
+            "method": "POST",
+            "sortNum": 20000,
+            "created": "2023-07-18T21:25:08.082Z",
+            "modified": "2023-07-18T21:25:37.587Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"jose\",\n  \"password\": \"123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "53734430-cbe5-4ec8-a275-df9920190cce",
+            "colId": "55aac9ad-fb78-4a7c-a8c5-d141add6b3ea",
+            "containerId": "",
+            "name": "login",
+            "url": "http://127.0.0.1:5000/login",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2023-07-18T21:26:44.306Z",
+            "modified": "2023-07-18T21:27:28.628Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"jose\",\n  \"password\": \"123\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "2adcc000-a13c-46d9-a730-c1528f7ddc53",
+            "colId": "55aac9ad-fb78-4a7c-a8c5-d141add6b3ea",
+            "containerId": "",
+            "name": "item",
+            "url": "http://127.0.0.1:5000/item",
+            "method": "POST",
+            "sortNum": 40000,
+            "created": "2023-07-18T21:28:45.280Z",
+            "modified": "2023-07-18T21:33:47.902Z",
+            "headers": [
+                {
+                    "name": "Authorization",
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6dHJ1ZSwiaWF0IjoxNjg5NzE1OTY5LCJqdGkiOiI5ZjFiZTI0YS0wOGQxLTQ2YzMtYjhkMS0wYmQzMTRmOGU1MjUiLCJ0eXBlIjoiYWNjZXNzIiwic3ViIjoyLCJuYmYiOjE2ODk3MTU5NjksImV4cCI6MTY4OTcxNjg2OX0.JqRYua8bMvYocG4F2jlUhwyF37QkPuWFqpNCUQUwMSg"
+                },
+                {
+                    "name": "Content-Type",
+                    "value": "application/json"
+                }
+            ],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n\"name\": \"Computadora Pentium I3\",\n\"price\": 300000.00,\n\"store_id\": 1\n}",
+                "form": []
+            },
+            "tests": []
+        }
+    ]
+}
